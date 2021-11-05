@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    background-color: #eee;
+    scroll-behavior: smooth;
+}
+header {
+    padding: 1rem;
+    background-color: rgb(47, 61, 105);
+    text-align: center;
+    height: 12rem;
+    color: rgb(255, 255, 255); 
+    font-size: 2rem;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+
+section{
+    width: 400px;
+    margin: 0 auto;
+}
+.content, .info, h2 {
+    margin: 1.5rem;
+}
+
+
+article {
+    transition: all 0.1s ease;
+    background-color: white;
+    margin: 2rem 0;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0;
+    box-shadow: 0 0.1rem 1.5rem rgba(0, 0, 0, 0.507)
+}
+
+article:hover {
+    box-shadow: 0 0.01rem 0.5rem rgba(0, 0, 0, 0.507);
+}
+
+.desc, .end {
+    text-align: center;
+    margin: 3rem;
+    font-size: 1.3rem;
+}
+
+
+footer {
+    padding:  3rem 1rem 7rem;
+    background-color: rgb(47, 61, 105);
+    color: rgb(255, 255, 255);
+}
+
+.down {
+    float: right;
+}
+
+.down a{
+    text-decoration: none;
+    transition: color 0.1s ease-in;
+    color: lightskyblue;
+}
+.down a:hover{
+    color: lightsteelblue;
+}
